@@ -16,13 +16,13 @@ public class controlstar : MonoBehaviour {
         float r = transform.localScale.x;
         star_position.set_coordinate(x, y, z);
         newstar.set_star(tempshipmodel, 1, star_position, r, 0.1f, 1);
-        newstar.produce_ship();
+        //newstar.produce_ship();
         
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        newstar.produce_ship();
+        //newstar.produce_ship();
     }
 
 }
