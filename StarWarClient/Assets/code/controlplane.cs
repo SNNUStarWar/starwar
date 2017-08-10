@@ -58,7 +58,7 @@ public class spaceship : MonoBehaviour
     public void update_ship_transform(float pos_x)    
     {
 
-        ship_Position_coordinate.z = 
+        // ship_Position_coordinate.z = 
     }
 
     public void move_ship()          //let ship move around the star
