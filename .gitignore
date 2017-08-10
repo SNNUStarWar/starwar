@@ -1,0 +1,4 @@
+/StarWarClient/Library/*
+/StarWarClient/Temp/*
+/StarWarClient/.vs
+/StarWarClient/StarWarClient.csproj
