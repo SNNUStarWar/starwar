@@ -16,7 +16,7 @@ public class controlstar : MonoBehaviour {
         float r = transform.localScale.x;
         star_position.set_coordinate(x, y, z);
         newstar.set_star(tempshipmodel, 1, star_position, r, 0.1f, 1);
-        //newstar.produce_ship();
+        newstar.produce_ship();
         
 	}
 	
@@ -105,7 +105,8 @@ public class star
         //call ship construction function
         // send this star's position
         int num = 1;
-        spaceship ship = new spaceship(ship_mode, 0.1f, 0.1f, 0.1f, star_coordinate);
+		//Vector3 starPosition = new Vector3(transform.position.x,transform.position.y,transform.position.z)
+        //spaceship ship = new spaceship(ship_mode, 0.1f, 0.1f, 0.1f, star_coordinate,starPosition);
         number_ship_have++;
         return number_ship_have;
 	}
